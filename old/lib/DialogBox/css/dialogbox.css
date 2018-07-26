@@ -1,0 +1,70 @@
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:540px;
+  height:300px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  color: #555;
+}
+
+a.close{
+	padding: 0;
+	float: right;
+	color: #555;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+#boxes img{
+	float: left;
+	padding-right: 10px;
+	}
+	
+.boxes-content{
+	padding-left: 4px;
+	margin-right: 3px;
+	}
+
+.boxes-content h3{
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font: bold 15px Tahoma;
+	color: #222;
+	text-align: left;
+	}
+
+.boxes-content h4{
+	margin-top: 3px;
+	padding-top: 0;
+	font: bold 11px Tahoma;
+	color: #aaa;
+	text-align: left;
+	}
+	
+.boxes-content p{
+	margin-top: 13px;
+	font-size: 11px;
+	text-align: justify;
+	}
+
+#boxes #suzanna, #boxes #ariyanto, #boxes #yangky, #boxes #aldo, #boxes #julius, #boxes #wisnu {
+  font-family: "Trebuchet MS","Helvetica","Arial","Verdana","sans-serif";
+  width:425px; 
+  height:275px;
+  padding:10px;
+  background-color:#ffffff;
+  border: double 2px #111;
+}

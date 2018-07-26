@@ -1,0 +1,21 @@
+[06-Mar-2016 06:25:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/admvictoria/public_html/vi-admin/controller/logout-lo.php on line 5
+[07-Mar-2016 06:20:25 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$_REQUEST' (T_VARIABLE) in /home/admvictoria/public_html/vi-admin/controller/save-page-lo.php on line 9
+[07-Mar-2016 06:20:41 Asia/Jakarta] PHP Fatal error:  Call to undefined method DB_con::save_page() in /home/admvictoria/public_html/vi-admin/controller/save-page-lo.php on line 12
+[07-Mar-2016 10:04:23 Asia/Jakarta] PHP Fatal error:  Call to undefined method DB_con::update_content() in /home/admvictoria/public_html/vi-admin/controller/update-page-lo.php on line 20
+[07-Mar-2016 10:08:32 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/admvictoria/public_html/vi-admin/controller/update-page-lo.php:21) in /home/admvictoria/public_html/vi-admin/controller/update-page-lo.php on line 25
+[07-Mar-2016 11:28:28 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/admvictoria/public_html/vi-admin/controller/update-page-lo.php:21) in /home/admvictoria/public_html/vi-admin/controller/update-page-lo.php on line 25
+[07-Mar-2016 11:30:55 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/admvictoria/public_html/vi-admin/controller/update-page-lo.php:21) in /home/admvictoria/public_html/vi-admin/controller/update-page-lo.php on line 25
+[07-Mar-2016 12:45:02 Asia/Jakarta] PHP Fatal error:  Non-abstract method DB_con::update_category() must contain body in /home/admvictoria/public_html/vi-admin/lib/processor.php on line 64
+[07-Mar-2016 12:45:13 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$res' (T_VARIABLE) in /home/admvictoria/public_html/vi-admin/lib/processor.php on line 67
+[13-Mar-2016 16:14:06 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'Sukses' (T_STRING) in /home/admvictoria/public_html/vi-admin/controller/edit-category-lo.php on line 15
+[13-Mar-2016 16:22:48 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/admvictoria/public_html/vi-admin/controller/edit-category-lo.php on line 14
+[13-Mar-2016 16:22:59 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';' in /home/admvictoria/public_html/vi-admin/controller/edit-category-lo.php on line 11
+[14-Mar-2016 04:07:27 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$new_fileloc' (T_VARIABLE) in /home/admvictoria/public_html/vi-admin/controller/save-sos-lo.php on line 18
+[14-Mar-2016 05:09:57 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '"' where id='share-ownership-s' (T_CONSTANT_ENCAPSED_STRING) in /home/admvictoria/public_html/vi-admin/controller/save-bod-lo.php on line 25
+[14-Mar-2016 05:13:37 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '"' in /home/admvictoria/public_html/vi-admin/controller/save-bod-lo.php on line 32
+[14-Mar-2016 05:38:59 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/admvictoria/public_html/vi-admin/controller/save-bod-lo.php on line 29
+[17-Mar-2016 08:10:25 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/admvictoria/public_html/vi-admin/controller/update-ar-lo.php:38) in /home/admvictoria/public_html/vi-admin/controller/update-ar-lo.php on line 62
+[11-Apr-2016 02:09:26 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$delete_slider' (T_VARIABLE) in /home/admvictoria/public_html/vi-admin/controller/delete-image-slider-lo.php on line 8
+[11-Apr-2016 04:29:26 Asia/Jakarta] PHP Warning:  date_format() expects parameter 1 to be DateTime, string given in /home/admvictoria/public_html/vi-admin/controller/save-news-lo.php on line 5
+[11-Apr-2016 04:30:07 Asia/Jakarta] PHP Warning:  date_format() expects parameter 1 to be DateTime, string given in /home/admvictoria/public_html/vi-admin/controller/save-news-lo.php on line 5
+[11-Apr-2016 04:31:16 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$date' (T_VARIABLE) in /home/admvictoria/public_html/vi-admin/controller/save-news-lo.php on line 6

@@ -1,0 +1,303 @@
+/* CSS for All pages*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000;
+	background-color: #fff;
+	margin: 0;
+	padding:0;
+}
+select{
+	/*width: 145px;*/
+}
+#container{
+	width: 100%;
+}
+
+/* Header*/
+#header{
+	background: url('../img/company-logo.jpg') no-repeat 1% 10%;
+	height: 122px;
+}
+.company-name{
+	padding: 10px 0 0 175px;
+	font: normal 32px impact;
+	color: #3A3636
+}
+.company-slogan{
+	padding: 5px 0 0 175px;
+	font: bold italic 13px arial,sans-serif;
+	color: #777777;
+}
+.company-address{
+	float: left;
+	padding: 10px 0 0 175px;
+	font: normal 11px tahoma;
+	color: #777777;
+}
+.module_name{
+	height: 70px;
+	margin: 5px 25px 0px 0px;
+	padding-top: 0px;
+	font-family: Garamond, serif;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+	text-align: right;
+	vertical-align: text-top;
+}
+#top-menu{
+	background-color: #BF0000;
+	font-family: verdana, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	color: #fff;
+	height: 18px;
+	padding: 5px 25px 0 0;
+	vertical-align: middle;
+}
+#top-menu b{
+	color: #DADADA;
+	text-decoration: none;
+}
+#top-menu a{
+	color: #fff;
+	text-decoration: none;
+}
+#top-menu a:hover{
+	color: #DADADA;
+	text-decoration: underline;
+}
+
+/* Content*/
+#all_content{
+	width: 100%;
+	min-height: 350px;
+}
+#left{
+	float: left;
+	width: 25%;
+	padding-top: 5px;
+	color: #000;
+	text-align: left;
+}
+/* Side Menu */
+#side_menu{
+	width: 95%;
+	padding-left: 5px;
+	font-family: Garamond, serif;
+	font-size: 16px;
+	font-weight: bold;
+	overflow: hidden;
+}
+.home{
+	background: transparent url('../img/icon_40x40/home.png') no-repeat 5% center;
+}
+.user{
+	background: transparent url('../img/icon_40x40/user.png') no-repeat 5% center;
+}
+.track{
+	background: transparent url('../img/icon_40x40/search.png') no-repeat 5% center;
+}
+.news{
+	background: url('../img/icon_40x40/news.png') no-repeat 5% center;
+}
+.fuel{
+	background: url('../img/icon_40x40/fuel.png') no-repeat 5% center;		
+}
+.faq{
+	background: url('../img/icon_40x40/help.png') no-repeat 5% center;		
+}
+#side_menu a{
+	text-decoration: none;
+	color: #000;
+	line-height: 60px;
+	padding: 20px 0px 20px 60px;
+}
+#side_menu  a.home:hover{
+	background: url('../img/icon_48x48/home.png') no-repeat 5% center;
+	padding: 30px 10px 30px 70px;
+}
+#side_menu  a.user:hover{
+	background: url('../img/icon_48x48/user.png') no-repeat 5% center;
+	padding: 30px 10px 30px 70px;
+}
+#side_menu  a.track:hover{
+	background: url('../img/icon_48x48/search.png') no-repeat 5% center;
+	padding: 30px 10px 30px 70px;
+}
+#side_menu  a.news:hover{
+	background: url('../img/icon_48x48/news.png') no-repeat 5% center;
+	padding: 30px 10px 30px 70px;
+}
+#side_menu  a.faq:hover{
+	background: url('../img/icon_48x48/help.png') no-repeat 5% center;
+	padding: 30px 10px 30px 70px;
+}
+#side_menu  a.fuel:hover{
+	background: url('../img/icon_48x48/fuel.png') no-repeat 5% center;
+	padding: 30px 10px 30px 70px;
+}
+#side_menu  a.home:focus, a.user:focus, a.track:focus, a.news:focus, a.faq:focus, a.fuel:focus{
+	outline: none;
+}
+/* right_content */
+#content{
+	float: right;
+	width: 75%;
+	min-height: 350px;
+	padding-top: 5px;
+	color: #000;
+	text-align: left;
+}
+/* styles inside content */
+.content-back{
+	background: #F4F4F4 url('../img/White-logo.png') no-repeat 99% 89%;
+	min-height: 350px;
+	margin-right: 5px;
+	padding: 5px;
+}
+.content-title{
+	padding: 10px 0px 0 15px;
+	font: bold 22px tahoma;
+	color: #6A6A6A;
+}
+.fuel-rate{
+	margin-top: 15px;
+	padding: 15px 0px 0 15px;
+	font: bold 36px arial,sans-serif;
+	color: green;
+	text-align: left;
+}
+.fuel-rate img{
+	float: left;
+}
+#update-fuel{
+	margin: 10px 0 0 50px;
+	padding: 2px 25px;
+	background: #3B5998;
+	border-color: #E0DFE3;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+.edit-info{
+	margin-left: 150px;
+	padding-left: 20px;
+	background: transparent url(../img/edit.png) no-repeat scroll left top;
+	font: normal 11px tahoma;
+	color: #3B5998;
+	text-decoration: none;
+}
+.edit-info:hover{
+	text-decoration: underline;
+}
+.profile-title{
+	padding: 15px 0px 0 15px;
+	font: bold 11px tahoma;
+}
+.profile-title hr{
+	width: 275px;
+	height: 1px;
+	background-color: #E4E4E4;
+	border: 0;
+	margin-left: 125px;
+	margin-top: -6px;
+	color: #E4E4E4;
+}
+.profile-data{
+	padding: 15px 0px 0 15px;
+	font: normal 11px tahoma;
+}
+.profile-data dt{
+	width: 119px;
+	clear: left;
+	float: left;
+	color: #777777
+}
+.profile-data dd{
+	width: 340px;
+	float: left;
+	margin: 0;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+.button-default{
+	width: 100px;
+	margin: 15px 0 0 100px;
+}
+
+/* CSS for Login Page */
+#company-logo{
+	padding-top: 125px;
+	font: bold 40px 'Comic Sans MS', cursive;
+	color: #2367BA;
+	text-align: center;
+}
+#login_container{
+	background: url('../img/company-logo.gf') no-repeat top center;
+	margin: 10px 5px 5px 5px;
+	color: #000;
+}
+#login{
+	font-family: sans-serif;
+	padding-top: 5px;
+	border-spacing: 10px 10px;
+}
+.login_area{
+	float:left;
+	position:relative;
+	left:50%;
+	text-align:left;
+}
+.login_area ul{
+	list-style:none;
+	position:relative;
+	left:-50%;
+	margin-right: 145px;
+}
+.login_area li{
+	float:left;
+	position:relative;	/* ie needs position:relative here*/
+	margin:0 0px 0px 20px;
+	width: 90px;
+	text-align:right;
+}
+.login_area li input:focus{
+	background: #aeaeae;
+}
+.login_area .login_button input{
+	background: #3B5998;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	float: left;
+	margin: 0px 58px 0px 58px;
+	padding: 2px 25px;
+}
+.login_area .login_button input:hover{
+	background: #5F9EA0;
+}
+
+/* Web Information */
+#web-info{
+	width: 100%;
+	height: 50px;
+	padding-top: 25px;
+	font: bold 11px verdana, monoscope;
+	color: #6A6A6A;
+	text-align: center;
+	line-height: 16px;
+}
+#web-info a{
+	text-decoration: none;
+	color: #6A6A6A;
+}
+#web-info a:hover{
+	text-decoration: underline;
+	color: #D4A916;
+}

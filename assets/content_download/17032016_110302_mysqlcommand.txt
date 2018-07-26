@@ -1,0 +1,17 @@
+Enable User Access
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.100.%' IDENTIFIED BY 'my-new-password' WITH GRANT OPTION;
+
+
+cannot connetx unix_socket solved
+/etc/init.d/mysql stop
+sudo killall mysqld_safe
+sudo killall mysqld
+sudo mysqld_safe --skip-grant-tables &
+mysql -u root
+use mysql;
+update user set password=PASSWORD("mynewpassword") where User='root';
+update user set plugin="mysql_native_password";
+quit;
+/etc/init.d/mysql stop
+sudo kill -9 $(pgrep mysql)
+/etc/init.d/mysql start

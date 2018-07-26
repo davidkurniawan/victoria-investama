@@ -1,0 +1,85 @@
+var componentPath = "component";
+
+function ValidateBeforeSave(){
+
+	$("#NewsId").val(trim($("#NewsId").val()));
+	$("#Type").val(trim($("#Type").val()));
+	$("#Title").val(trim($("#Title").val()));
+	$("#Content").val(trim($("#Content").val()));
+	$("#Date").val(trim($("#Date").val()));
+	if($("#NewsId").val()=="")
+	{
+		jAlert('error',"NewsId tidak boleh kosong","Insert Data");
+		$("#NewsId").val("").focus();
+		return false;
+	}
+	else if($("#Type").val()=="")
+	{
+		jAlert('error',"Type tidak boleh kosong","Insert Data");
+		$("#Type").val("").focus();
+		return false;
+	}
+	else if($("#Title").val()=="")
+	{
+		jAlert('error',"Title tidak boleh kosong","Insert Data");
+		$("#Title").val("").focus();
+		return false;
+	}
+	else if($("#Content").val()=="")
+	{
+		jAlert('error',"Content tidak boleh kosong","Insert Data");
+		$("#Content").val("").focus();
+		return false;
+	}
+	else if($("#Date").val()=="")
+	{
+		jAlert('error',"Date tidak boleh kosong","Insert Data");
+		$("#Date").val("").focus();
+		return false;
+	}
+	return true;
+}
+
+function CloseDialogBox()
+{
+	if(Boxy.get($(".boxy-wrapper").children()) != null)
+	Boxy.get($(".boxy-wrapper").children()).hideAndUnload();
+}
+
+$(function(){
+	$("#btnSave").click(function(){
+//		if(ValidateBeforeSave()){
+			$("#btnSave").attr("disabled","true");
+			$("#btnCancel").attr("disabled","true");
+			var urlSend = "";
+
+			if(action == "UPDATE")
+				urlSend = "../component/Information/MethodUpdateInformation.php";
+			else
+				urlSend = "../component/Information/MethodInsertInformation.php";
+
+			$("#status").empty().append("Menunggu proses....");
+
+			var passingData = "NewsId=" + escape($("#NewsId").val());
+			passingData += "&Type=" + escape($("#Type").val());
+			passingData += "&Title=" + escape($("#Title").val());
+			passingData += "&Content=" + escape($("#Content").val());
+			passingData += "&Date=" + escape($("#Date").val());
+			$.ajax({
+				url: urlSend,
+				type: "POST",
+				data: passingData,
+				success: function(result){jAlert('info',result,"Insert Data",CloseDialogBox);}
+			});
+//		}
+	});
+	$("#btnCancel").click(function(){
+		CloseDialogBox();
+	});
+
+        $("#Date").datepicker({
+			dateFormat: "yy-mm-dd"
+			//minDate: '0'
+        });
+});
+

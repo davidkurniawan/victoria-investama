@@ -1,0 +1,15 @@
+table.forum 
+{
+	font-family: Verdana, Geneva, sans-serif, arial;   
+    font-size:small;
+}
+
+table.forum thead th {
+    background: url('sprite.png') repeat-x 0px 0px;    		
+	border: 1px solid #7f7f7f;
+    padding: 5px;
+	margin: 0 auto;
+	height: auto;
+	cursor:pointer;
+}
+

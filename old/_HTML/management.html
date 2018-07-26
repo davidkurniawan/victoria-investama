@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Victoria Sekuritas - About Us</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-5" />
+<link rel="stylesheet" href="css/victria.css" type="text/css" />
+<script type="text/javascript" src="lib/jquery.js"></script>
+
+<!-- Top Menu -->
+<link rel="stylesheet" href="lib/vimeo_navigation/css/vimeo-nav.css" type="text/css" />
+
+<!-- Cycle Plugin -->
+<script type="text/javascript">
+	$(function(){
+		//jqeury cycle - handler
+		$("#banner").cycle("fade");
+		$("#headline-description").cycle("scrollVert");
+	});
+</script>
+<script type="text/javascript" src="lib/AnimatePicture/jquery.cycle.all.min.js"></script> 
+	
+<!-- DialogBox -->
+<style type="text/css">
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:540px;
+  height:300px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+
+#boxes #suzanna, #boxes #ariyanto, #boxes #yangky, #boxes #aldo, #boxes #julius, #boxes #wisnu {
+  font-family: "Trebuchet MS","Helvetica","Arial","Verdana","sans-serif";
+  width:425px; 
+  height:275px;
+  padding:10px;
+  background-color:#ffffff;
+  border: double 2px #111;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {	
+
+	//select all the a tag with name equal to modal
+	$('a[name=modal]').click(function(e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		//Get the A tag
+		var id = $(this).attr('href');
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(500);	
+		$('#mask').fadeTo("slow",0.8);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(2000); 
+	
+	});
+	
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});			
+	
+});
+</script>
+
+</head>
+<body style='margin: 0;padding: 0;background: #000 url(img/menu_bg.jpg) repeat-x;font: normal 13px Helvetica;color: #d2d1c6;'>
+
+<div id='header' style='width: 983px;height: 57px;margin: 0 auto;padding: 0px;background: url(img/but1.jpg) no-repeat 6% 100%;color: #fff;text-align: left;'>
+	<ul id='top-menu' style='list-style-type: none;display:block;padding: 0;margin-top: 0;padding-top: 14px;'>
+		<li class='blue' style='display: inline;padding-left: 10px;'><a href='index.html' style='font: normal 12px Tahoma;color: #fff;text-decoration: none;'><img src='img/button/home.jpg' alt='Home' align='middle' style='border: none;'/></a></li>
+		<li class='blue' style='display: inline;padding-left: 20px;'><a href='about.html' style='font: normal 11px Tahoma;color: #fff;text-decoration: none;'>ABOUT US</a></li>
+		<li class='blue' style='display: inline;padding-left: 20px;'><a href='services.html' style='font: normal 11px Tahoma;color: #fff;text-decoration: none;'>SERVICES</a></li>
+		<li class='blue' style='display: inline;padding-left: 20px;'><a href='news.html' style='font: normal 11px Tahoma;color: #fff;text-decoration: none;'>NEWS</a></li>
+		<li class='blue' style='display: inline;padding-left: 20px;'><a href='download.html' style='font: normal 11px Tahoma;color: #fff;text-decoration: none;'>DOWNLOAD</a></li>
+		<li class='blue' style='display: inline;padding-left: 20px;'><a href='contact.html' style='font: normal 11px Tahoma;color: #fff;text-decoration: none;'>CONTACT US</a></li>
+		<li class='blue' style='display: inline;padding-left: 20px;'><a href='link.html' style='font: normal 11px Tahoma;color: #fff;text-decoration: none;'>LINK</a></li>
+	</ul>
+</div>
+<div id='wrapper' style='width: 983px;min-height: 440px;margin: auto;background-color: #000;color: #d2d1c6;'>
+	<div id='left-menu' style='float:left;width: 200px;margin-top: 20px;text-align: left;'>
+		<ul style='list-style-type: none;margin: 0;padding: 0;'>
+			<li style='height: 23px;margin-top: 2px;padding: 5px 0px 0px 14px;background: url(img/bc.gif)'><img src='img/arrow.gif' alt='-'/><a href='about.html' style='margin-left: 5px;font: bold 12px Tahoma;color: #fff;text-decoration: none;'>Overview</a></li>
+			<li style='height: 23px;margin-top: 2px;padding: 5px 0px 0px 14px;background: url(img/bc.gif)'><img src='img/arrow.gif' alt='-'/><a href='milestone.html' style='margin-left: 5px;font: bold 12px Tahoma;color: #fff;text-decoration: none;'>Milestone</a></li>
+			<li style='height: 23px;margin-top: 2px;padding: 5px 0px 0px 14px;background: url(img/bc.gif)'><img src='img/arrow.gif' alt='-'/><a href='visi-misi.html' style='margin-left: 5px;font: bold 12px Tahoma;color: #fff;text-decoration: none;'>Vision & Mission</a></li>
+			<li style='height: 23px;margin-top: 2px;padding: 5px 0px 0px 14px;background: url(img/bc.gif)'><img src='img/arrow.gif' alt='-'/><a href='management.html' style='margin-left: 5px;font: bold 12px Tahoma;color: #888;text-decoration: none;'>Management</a></li>
+			<li style='height: 23px;margin-top: 2px;padding: 5px 0px 0px 14px;background: url(img/bc.gif)'><img src='img/arrow.gif' alt='-'/><a href='credentials.html' style='margin-left: 5px;font: bold 12px Tahoma;color: #fff;text-decoration: none;'>Credentials</a></li>
+		</ul>
+	</div>
+	<div id='paragraph' style='float: left; width: 725px;min-height: 300px;margin-top: 20px;margin-left: 20px;text-align: justify;line-height: 16px;'>
+		<div style='width: 300px;float: left;margin-left: 0px;margin-top: 0px;'>
+			<div class='Title' style='padding-left: 10px;background: url(img/arrow.gif) no-repeat 0px 4px;font: bold 12px Tahoma;color: #af0e0e;'>Board of Commissioner</div>
+			<img src='img/management/commissioners.jpg' alt='Commissioners' style='width: 275px;height: 175px;border: 1px solid #fff;margin-top: 10px;'/>
+			<dl style=''>
+				<dt style='padding-bottom: 9px;'><b>President Commissioner</b> 
+					<a href='#suzanna' name="modal" style='margin-left: 19px;color: #1a5bff;font-size: 12px;text-decoration: none;'>: Suzanna Tanojo</a>
+				</dt>
+				<dt style='padding-bottom: 9px;'><b>Commissioner</b>
+					<a href='#ariyanto' name="modal" style='margin-left: 83px;color: #1a5bff;font-size: 12px;text-decoration: none;'>: Arianto Syarief</a>
+				</dt>
+				<dt style='padding-bottom: 9px;'><b>Commissioner</b>
+					<a href='#yangky' name="modal" style='margin-left: 83px;color: #1a5bff;font-size: 12px;text-decoration: none;'>: Yangky Halim</a>
+				</dt>
+			</dl>
+		</div>
+		<div style='width: 300px;float: left;margin-left: 60px;margin-top: 0px;'>
+			<div class='Title' style='padding-left: 10px;background: url(img/arrow.gif) no-repeat 0px 4px;font: bold 12px Tahoma;color: #af0e0e;'>Board of Director</div>
+			<dl style=''>
+				<dt style='padding-bottom: 9px;'><b>President Director</b> 
+					<a href='#aldo' name="modal" style='margin-left: 19px;color: #1a5bff;font-size: 12px;text-decoration: none;'>: Aldo Jusuf Tjahaja</a>
+				</dt>
+				<dt style='padding-bottom: 9px;'><b>Director</b>
+					<a href='#julius' name="modal" style='margin-left: 83px;color: #1a5bff;font-size: 12px;text-decoration: none;'>: J V Sihombing</a>
+				</dt>
+				<dt style='padding-bottom: 9px;'><b>Director</b>
+					<a href='#wisnu' name="modal" style='margin-left: 83px;color: #1a5bff;font-size: 12px;text-decoration: none;'>: R.A. Wisnu Widodo</a>
+				</dt>
+			</dl>
+			<img src='img/management/directors.jpg' alt='Directors' style='width: 275px;height: 175px;border: 1px solid #fff;margin-top: 0px;'/>
+		</div>
+	</div>
+<!-- dialogboxes -->
+	<div id="boxes">
+		<div id="suzanna" class="window" style='color: #555;'>
+			<a href="#"class="close" style='padding: 0;float: right;color: #555;font-weight: bold;text-decoration: none;'>X</a>
+			<img src='img/management/suzanna.jpg' style='float: left;padding-right: 10px;' />
+			<div style='padding-left: 4px;margin-right: 3px;'>
+				<h3 style='margin-top: 0px;margin-bottom: 0;padding-bottom: 0;font: bold 15px Tahoma;color: #222;text-align: left;'>Suzanna Tanojo</h3>
+				<h4 style='margin-top: 3px;padding-top: 0;font: bold 11px Tahoma;color: #aaa;text-align: left;'>President Commissioner</h4>
+				<p style='font-size: 11px;text-align: justify;'> Indonesia citizen who was born in Tulung Agung in the year 1958. 
+				Completed Bachelor of Economics majoring in Accounting in Airlangga University, Surabaya.</p>
+					
+				<p style='font-size: 11px;text-align: justify;'> Started her career at PT Unggul Indah Corporation Tbk, 
+				with last position as Vice President Director (1986-1995). Then she joined PT Apac Inti Corpora 
+				and PT Apac Citra Centertex Corporation Tbk as Commissioner (1995-2003) and PT Bhuwanatala Indah Permai Tbk, 
+				Jakarta also as Commissioner (1996-2003).</p>
+					
+				<p style='font-size: 11px;text-align: justify;'> Besides establishing her career in testile industry, 
+				chemical industry and property industry, she started financial organization called Victoria Group (1995-present). 
+				Since February 2006 till June 2007 as Commissioner and later promoted to President Commissioner since June 2007 until now.</p>
+			</div>
+		</div>
+		<div id="ariyanto" class="window" style='color: #555;'>
+			<a href="#"class="close" style='padding: 0;float: right;color: #555;font-weight: bold;text-decoration: none;'>X</a>
+			<img src='img/management/ariyanto.jpg' style='float: left;padding-right: 10px;' />
+			<div style='padding-left: 4px;margin-right: 3px;'>
+				<h3 style='margin-top: 0px;margin-bottom: 0;padding-bottom: 0;font: bold 15px Tahoma;color: #222;text-align: left;'>Ariyanto Syarief</h3>
+				<h4 style='margin-top: 3px;padding-top: 0;font: bold 11px Tahoma;color: #aaa;text-align: left;'>Commissioner</h4>
+				<p style='font-size: 11px;text-align: justify;'> Indonesia citizen who was born in Jakarta in the year 1968. 
+					Memiliki Izin orang perseorangan dari Bapepam sebagai Wakil Perantara Pedagang Efek (1999).</p>
+					
+				<p style='font-size: 11px;text-align: justify;'> Started his career at Bhuwanatala Indah Permai Tbk, Jakarta 
+				as Assistant Director and Corporate Secretary (1989-1999). 
+				Joined our Company as Associate Director (1999), Director (1999-2000) and President Director (2000-2003).</p>
+					
+				<p style='font-size: 11px;text-align: justify;'> His other positions includes Director of PT Bhuwanatala Indah Permai Tbk (2003-present), 
+				as Director of PT Apac Citra Centertex Tbk (2003-June 2005) and since June 2003 until now as Commissioner of this Company.</p>
+			</div>
+		</div>
+		<div id="yangky" class="window" style='color: #555;'>
+			<a href="#"class="close" style='padding: 0;float: right;color: #555;font-weight: bold;text-decoration: none;'>X</a>
+			<img src='img/management/yangky.jpg' style='float: left;padding-right: 10px;' />
+			<div style='padding-left: 4px;'>
+				<h3 style='margin-top: 0px;margin-bottom: 0;padding-bottom: 0;font: bold 15px Tahoma;color: #222;text-align: left;'>Yangky Halim</h3>
+				<h4 style='margin-top: 3px;padding-top: 0;font: bold 11px Tahoma;color: #aaa;text-align: left;'>Commissioner</h4>
+				<p style='font-size: 11px;text-align: justify;'> Indonesia citizen who was born in Jakarta in the year 1970. 
+				Completed Bachelor of Economics in Catholic University of Atma Jaya, Jakarta in 1993.<br/>
+				Enrolled in Extension Program Total Quality Management in University of California Los Angeles, USA in 1994.					
+				Memiliki izin orang perseorangan dari Bapepam sebagai Wakil Perantara Pedagang Efek (1996) 
+				dan sebagai Wakil Penjamin Emisi Efek (1997).</p>
+					
+				<p style='font-size: 11px;text-align: justify;'> Started his career as Dealer in PT Anekareksa Securities (1996-1997). 
+				His other positions include President Director of PT Dhanatunggal Binasatya (1997-2005), 
+				General Manager of PT Mata Air Murni Pratama (2004-2005), as President Director on this Company (2005-2009),
+				and since December 2009 until now as Commissioner of this company.</p>
+			</div>
+		</div>
+		<div id="aldo" class="window" style='color: #555;'>
+			<a href="#"class="close" style='padding: 0;float: right;color: #555;font-weight: bold;text-decoration: none;'>X</a>
+			<img src='img/management/aldo.jpg' style='float: left;padding-right: 10px;' />
+			<div style='padding-left: 4px;'>
+				<h3 style='margin-top: 0px;margin-bottom: 0;padding-bottom: 0;font: bold 15px Tahoma;color: #222;text-align: left;'>Aldo Jusuf Tjahaja</h3>
+				<h4 style='margin-top: 3px;padding-top: 0;font: bold 11px Tahoma;color: #aaa;text-align: left;'>President Director</h4>
+				<p style='font-size: 11px;text-align: justify;'> Indonesia citizen who was born in Jakarta in the year 1970. 
+					Completed Bachelor of Science in University of Oregon, USA in 1995.<br/>
+					Have Invesment manager lisense (WMI), Commodity Broker Licence (BBJ), and Certified Jakarta Automated Trading System (JATS).</p>
+					
+				<p style='font-size: 11px;'>Started his career as Credit Analyst in PT Bank Aspac, Jakarta (1995-1996). 
+				His other positions include Equity Sales of PT Sasson Securities Indonesia (1996-1997), 
+				as Vice President of PT Ciptamahardhika Sekuritas (1997-1999), 
+				as Institutoinal Vice President of PT Henan Putihrai Sekuritas (1999-2000),
+				as Vice President-Head of Sales of PT Ekokapital Sekuritas (2001-2003), 
+				as Asset Management Director of PT Ekokapital Sekuritas (2003-2009),
+				and since December 2009 until now as President Director of this company.</p>
+			</div>
+		</div>
+		<div id="julius" class="window" style='color: #555;'>
+			<a href="#"class="close" style='padding: 0;float: right;color: #555;font-weight: bold;text-decoration: none;'>X</a>
+			<img src='img/management/julius.jpg' style='float: left;padding-right: 10px;' />
+			<div style='padding-left: 4px;'>
+				<h3 style='margin-top: 0px;margin-bottom: 0;padding-bottom: 0;font: bold 15px Tahoma;color: #222;text-align: left;'>J V Sihombing</h3>
+				<h4 style='margin-top: 3px;padding-top: 0;font: bold 11px Tahoma;color: #aaa;text-align: left;'>Director</h4>
+				<p style='font-size: 11px;text-align: justify;'> Indonesia citizen who was born in Jakarta in the year 1971. <br/>
+					Completed Diploma in Polytechnic majoring in Electronics Industry in University of Indonesia in 1994. <br/>
+					Completed Bachelor of Economics majoring in Finance Management in University of Indonesia in 1999.</p>
+					
+				<p style='font-size: 11px;text-align: justify;'> Started his career at PT Agung Sekuritas Indonesia as Equity Sales (1999-2000). 
+					Has experiences in a few other positions and his last position as Asisten Manager Corporate Finance of PT Sinarmas Sekuritas (2000-2005). 
+					Since February 2006 as Direktur of this Company.</p>
+					
+				<p style='font-size: 11px;'> </p>
+			</div>
+		</div>
+		<div id="wisnu" class="window" style='color: #555;'>
+			<a href="#"class="close" style='padding: 0;float: right;color: #555;font-weight: bold;text-decoration: none;'>X</a>
+			<img src='img/management/wisnu.jpg' style='float: left;padding-right: 10px;' />
+			<div style='padding-left: 4px;'>
+				<h3 style='margin-top: 0px;margin-bottom: 0;padding-bottom: 0;font: bold 15px Tahoma;color: #222;text-align: left;'>R.A. Wisnu Widodo</h3>
+				<h4 style='margin-top: 3px;padding-top: 0;font: bold 11px Tahoma;color: #aaa;text-align: left;'>Director</h4>
+				<p style='font-size: 11px;text-align: justify;'> Indonesia citizen who was born in Jakarta in the year 1978. 
+					Completed Bachelor of Economics majoring in Management in Sahid University in 2002, Jakarta. <br/>
+					Enrolled in Accounting Program at Catholic University of Atma Jaya in 2004. 
+					Memiliki Izin orang perseorangan dari Bapepam sebagai Wakil Penjamin Emisi Efek (2004). </p>
+					
+				<p style='font-size: 11px;text-align: justify;'> Started his career at PT Gramedia Majalah as Research Project Officer (2002-2003).
+					Joined this Company in 2002 as Corporate Finance (2002-2005), Corporate Finance Manager (2005-2006) 
+					and Corporate Secretary (2005-present). <br/>
+					He has also been appointed Commissioner of PT Verena Oto Finance. 
+					Since February 2006 as Direktur of this Company. </p>
+					
+				<p style='font-size: 11px;'> </p>
+			</div>
+		</div>
+		<div id="mask"></div>
+	</div>
+	<img src='img/about.png' style='margin-top: 10px;margin-right: 30px;float: right' alt='About Victoria Sekuritas' />
+</div>
+<div id='footer-wrap' style='padding: 15px 0 15px 10px;background: #121212;font-size: 11px;'>
+	<div style='width: 983px;min-height: 70px;margin: auto;background: #121212;'>
+		<div style='float: left;width: 300px;background: transparent;line-height: 17px;text-align: left;color: #a6a6a6;'>
+			<b>PT.Victoria Sekuritas</b><br/>
+			Victoria Suites, Senayan City, Panin Tower 8th Floor<br/>
+			Jl. Asia Afrika Lot 19, Jakarta 10270<br/>
+			T : +62 21 7278 2310 <span style='margin-left: 20px;'>F : +62 21 7278 2280</span>
+		</div>
+		<div style='float: right;width: 300px;margin-top: 0px;margin-right: 20px;line-height: 18px;text-align: right;color: #9c9c9c;'>
+			<a href='index.html' style='color: #9c9c9c;text-decoration: none;'>www.victoriasekuritas.co.id</a><br/>
+			&copy; 2010 All rights reserved.<br/>
+			<a href='#' style='color: #9c9c9c;text-decoration: none;'>Terms of Use</a> | 
+			<a href='#' style='color: #9c9c9c;text-decoration: none;'>Privacy Policy</a><br />
+			Best view with Mozilla Firefox 3.0 at 1024x768 resolution.
+		</div>
+	</div>
+</div>
+</body>
+</html>

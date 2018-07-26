@@ -1,0 +1,159 @@
+th a {
+	text-decoration: none;
+	color: #000;/*#5C80B1;*/
+}
+
+table.yui 
+{
+	font-family: Verdana, Geneva, sans-serif, arial;   
+    border-collapse:collapse;	
+    font-size:small;
+}
+
+table.yui td {	
+	padding: 5px;
+}
+table.yui .even {
+	background-color: #fff;
+	border-right: solid 1px #7f7f7f;
+}
+table.yui .odd {
+	background-color: #ffe5a8;/*#edf5ff;*/
+	border-right: solid 1px #7f7f7f;
+}
+table.yui th
+{
+    background: url('sprite.png') repeat-x 0px 0px;    		
+	border: 1px solid #7f7f7f;
+    padding: 5px;
+	height: auto;
+	cursor:pointer;
+}
+
+table.yui th a
+{
+	text-decoration: none;
+	text-align: center;    	
+    padding-right: 0px;
+    font-weight:bold;
+    white-space:nowrap;
+    /*background: url('bg.gif') no-repeat right 50%;*/
+}
+
+table.yui thead .headerSortUp , table.yui thead .headerSortDown 
+{
+    background: url('sprite.png') repeat-x 0px -100px;
+}
+
+table.yui thead
+{
+	border-left: solid 1px #f48726;
+}
+
+table.yui thead td
+{
+    vertical-align:middle;
+    background-color: #CCCCCC;/*#E1ECF9;*/
+    border:none;
+}
+
+table.yui thead .tableHeader
+{
+    font-size: 18px;
+    font-weight:bold;
+	color: #ffffff;
+	background-color:#f48726;
+	height: 70px;
+	padding-left: 40px;
+}
+
+table.yui thead .regist
+{
+    background: url('sprite.png') repeat-x 0px 0px;    		
+	border: 1px solid #7f7f7f;
+    padding: 5px;
+	height: auto;
+}
+
+table.yui thead .filter
+{
+    text-align:right;
+	background-color:#f48726;
+}
+
+table.yui tfoot td
+{    
+    border-top: 1px solid #7f7f7f;
+}
+
+table.yui tfoot .tableFooter
+{
+	background-color:#f48726;
+}
+
+table.yui tfoot
+{
+    text-align:center;      
+	border-left: solid 1px #f48726;
+}
+
+table.yui tbody
+{
+	border-left: solid 1px #7f7f7f;
+}
+
+table.yui tbody td
+{
+	border-right: solid 1px #7f7f7f;
+	vertical-align:top;
+	font-size: 13px;
+}
+
+table.yui .headerSortUp a 
+{	
+   /* background: url('asc.gif') no-repeat right 50%; */
+}
+table.yui .headerSortDown a 
+{    
+   /* background: url('desc.gif') no-repeat right 50%;  */
+}
+
+table.yui .tablesorterPager {
+	padding: 10px 0 10px 0;		
+}
+table.yui .tablesorterPager span {
+	padding: 0 5px 0 5px;
+}
+table.yui .tablesorterPager input.prev {
+	width: auto;
+	margin-right: 10px;
+}
+table.yui .tablesorterPager input.next {
+	width: auto;
+	margin-left: 10px;
+}
+table.yui .pagedisplay 	
+{
+    font-size:10pt;
+	width: 40px;
+	border: 0px;	
+	background-color: #ffffff;/*#E1ECF9;*/
+	text-align:center;
+    vertical-align:top;
+}
+
+table.forum 
+{
+	font-family: Verdana, Geneva, sans-serif, arial;   
+    font-size:small;
+}
+
+table.forum thead th {
+    background: url('sprite.png') repeat-x 0px 0px;    		
+	border: 1px solid #7f7f7f;
+    padding: 5px;
+	margin: 0 auto;
+	height: auto;
+	cursor:pointer;
+}
+

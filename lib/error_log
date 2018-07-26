@@ -1,0 +1,37 @@
+[16-Feb-2016 17:03:45 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:05:14 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:05:45 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:05:46 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:05:47 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:10:26 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:10:50 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:10:51 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:11:08 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:11:52 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:11:53 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:13:19 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:13:21 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:16:08 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:16:08 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:16:09 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:16:27 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:16:45 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '{' in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 6
+[16-Feb-2016 17:17:10 Asia/Jakarta] PHP Fatal error:  Call to a member function change_language() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:17:57 Asia/Jakarta] PHP Fatal error:  Call to a member function test() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:18:17 Asia/Jakarta] PHP Fatal error:  Call to a member function ganti() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:18:32 Asia/Jakarta] PHP Fatal error:  Call to a member function select() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:18:34 Asia/Jakarta] PHP Fatal error:  Call to a member function select() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:19:37 Asia/Jakarta] PHP Fatal error:  Call to a member function select() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:19:45 Asia/Jakarta] PHP Warning:  include(lib/processor.php): failed to open stream: No such file or directory in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 3
+[16-Feb-2016 17:19:45 Asia/Jakarta] PHP Warning:  include(lib/processor.php): failed to open stream: No such file or directory in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 3
+[16-Feb-2016 17:19:45 Asia/Jakarta] PHP Warning:  include(): Failed opening 'lib/processor.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 3
+[16-Feb-2016 17:19:45 Asia/Jakarta] PHP Fatal error:  Call to a member function select() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:19:54 Asia/Jakarta] PHP Fatal error:  Call to a member function select() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:34:18 Asia/Jakarta] PHP Fatal error:  Call to a member function select() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:50:15 Asia/Jakarta] PHP Fatal error:  Call to a member function ChangeLanguage() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:51:23 Asia/Jakarta] PHP Fatal error:  Call to a member function ChangeLanguage() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:51:39 Asia/Jakarta] PHP Fatal error:  Call to a member function ChangeLanguage() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:51:52 Asia/Jakarta] PHP Fatal error:  Call to a member function Select() on a non-object in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 4
+[16-Feb-2016 17:53:56 Asia/Jakarta] PHP Fatal error:  Class 'DB_con' not found in /home/admvictoria/public_html/lib/ChangeLanguage.php on line 2
+[10-Apr-2016 12:08:57 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$to' (T_VARIABLE) in /home/admvictoria/public_html/lib/mail.php on line 5
+[10-Apr-2016 12:09:20 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/admvictoria/public_html/lib/mail.php on line 55

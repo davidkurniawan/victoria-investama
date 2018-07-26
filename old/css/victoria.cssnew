@@ -1,0 +1,324 @@
+
+/* General CSS */
+*{
+	margin:0;
+	padding:0;
+	}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #121212 url(../img/menu_bg.jpg) repeat-x;
+	font: normal 13px Helvetica;
+	color: #d2d1c6;
+	}
+
+p{margin-top: 13px;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+img {border:0px;}
+h3{margin-top: 8px;font-size: 12px;}
+input:focus,textarea:focus{background: #aeaeae;}
+
+.center_col{margin: 0 auto;width: 983px;}
+
+/* Header & Menu */
+#header{
+	height: 57px;
+	padding: 0px;
+	background: transparent;
+	text-align: left;
+	}
+	
+ul#top-menu{
+	list-style-type: none;
+	display:block;
+	padding: 0;
+	margin-top: 0;
+	padding-top: 13px;
+	}
+	
+li.mnu{
+	background: transparent;
+	display: inline;
+	padding: 5px 20px 30px 20px;
+	}
+	
+li.mnu:hover{
+	background: url(../img/but1.jp) no-repeat top center;
+	}
+	
+#top-menu li a{
+	font: normal 11px Tahoma;
+	color: #fff;
+	text-decoration: none;
+	}
+	
+#top-menu li.mnu a:hover{
+	color: red;
+	}
+
+/* Content */
+.main-konten{
+	margin: 0;
+	padding: 0;
+	background: #000;
+	text-align: left;
+	}
+	
+#headline{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #fff;
+	}
+	
+#banner{
+	float: left;
+	}
+	
+#banner-description{
+	float: right;
+	width: 280px;
+	height: 272px;
+	margin: 20px 0 20px 20px;
+	text-align: left;
+	overflow: hidden
+	}
+	
+.content-title{
+	padding-left: 10px;
+	background: url(../img/arrow.gif) no-repeat 0px 4px;
+	font: bold 13px Tahoma;
+	color: #af0e0e;
+	}
+	
+.kolom{
+	float: left;
+	width: 250px;
+	margin-top: 25px;
+	margin-left: 20px;
+	text-align: left;
+	}
+	
+.kolom-content{
+	margin: 10px 25px 0 0;
+	font-size: 13px;
+	text-align: justify;
+	}
+	
+.readmore{
+	margin:16px 35px 0 0;
+	text-align:right;
+	}
+	
+.readmore a{
+	font: bold 12px Tahoma;
+	color:#af0e0e;
+	text-decoration:none;
+	}
+	
+.readmore a:hover{
+	text-decoration: underline;
+	}
+	
+#left-menu{
+	float:left;
+	width: 200px;
+	margin-top: 0px;
+	text-align: left;
+	}
+
+.menuTitle{
+	margin-top: 6px;
+	padding: 5px 0px 5px 14px;
+	background: url(../img/bc.gif);
+	font: bold 12px Tahoma;
+	color: #fff;
+	}
+
+.menuTitle a{
+	text-decoration: none;
+	color: #fff;
+	}
+	
+.menuTitle a:hover{
+	text-decoration: underline;
+	color: #888;
+	}
+	
+dl.deflist{margin-top: 10px;}
+dl.deflist dt{padding-bottom: 9px;}
+
+dl.deflist dt a{
+	margin-left: 83px;
+	color: #1a5bff;
+	font-size: 12px;
+	text-decoration: none;
+	}
+
+dl.deflist dt a:hover{text-decoration: underline;}
+	
+ul.leftMenu{
+	list-style-type: square;
+	margin: 4px 0 4px 26px;
+	padding: 0;
+	}
+	
+ul.leftMenu li{padding-bottom: 3px;}
+
+ul.leftMenu li a{text-decoration: none;color: #D2D1C6;}
+ul.leftMenu li a:hover{text-decoration: underline;}
+a.equity:hover,a.fixed-income:hover,a.advisory:hover,a.underwriting:hover,a.arranging:hover{text-decoration: underline;}
+
+#news{
+	margin-top: 8px;
+	text-align: left;
+}
+
+#news ul{
+	list-style: none;padding-bottom: 10px;
+	}
+
+#news ul li{
+	padding-bottom: 10px;
+	}	
+
+b.news-date{
+	font: normal 10px Tahoma;
+	color: #af0e0e;
+	}
+
+a.news-title{
+	color: #d2d1c6;
+	text-decoration: none;
+	}
+	
+a.news-title:hover{text-decoration: underline;}
+
+ul.list{
+	list-style: square;
+	margin: 0;
+	padding-left: 13px;
+	}
+
+ul.list li{padding: 3px 0;}
+
+ul.list li a{
+	color: #fff;
+	font: normal 11px arial;
+	text-decoration: none;
+	}
+	
+ul.list li a:hover{text-decoration: underline;}
+
+#contact-form{
+	width: 570px;
+	margin-top: 0px;
+	font-size: 11px;
+	line-height: 22px;
+	}
+
+#contact-form td{width: 260px;}
+#contact-form td b{color: #fff;}
+input.textbox{width: 210px;}
+input.button{
+	float: right;
+	width: 80px;
+	margin: 8px 3px 0 0;
+	font: normal 12px arial;
+	}
+
+img.pageimg{
+	float: right;
+	margin-top: 25px;
+	margin-right: 35px;
+	}
+	#contact-form{
+	width: 570px;
+	margin-top: 0px;
+	font-size: 11px;
+	line-height: 22px;
+	}
+
+#OnTradTrial-form td{width: 260px;}
+#OnTradTrial-form td b{color: #fff;}
+input.textbox{width: 210px;}
+input.button{
+	float: right;
+	width: 80px;
+	margin: 8px 3px 0 0;
+	font: normal 12px arial;
+	}
+
+img.pageimg{
+	float: right;
+	margin-top: 25px;
+	margin-right: 35px;
+	}
+
+/* Footer */
+#footer-wrap{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	padding: 15px 0 15px 0px;
+	background: #121212;
+	font-size: 12px;
+	}
+	
+#footer{
+	height: 190px;
+	padding: 0px;
+	background: #121212;
+	text-align: left;
+	}
+
+#footer .footer-links{
+	margin-top: 16px;
+	margin-left: 25px;
+	border-right: solid 2px #1F1F1F;
+	float: left;
+	width: 175px;
+	text-align: left;
+	line-height: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	}
+
+.footer-links a{font-size: 11px;color: #9C9C9C;}
+	
+#footer .footer-contact{
+	margin-top: 16px;
+	float: left;
+	text-align: left;
+	line-height: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	}
+	
+#footer .footer-OnTradTrial{
+	margin-top: 16px;
+	float: left;
+	text-align: left;
+	line-height: 18px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	}	
+#copyright{
+	float: left;
+	margin-top: 35px;
+	margin-left: 235px;
+	font-size: 12px;
+	}
+	
+#terms{
+	float: right;
+	margin-top: 35px;
+	margin-right: 40px;
+	font-size: 12px;
+	}
+	
+#terms a{font-size: 11px;color: #9C9C9C;}
+
+.clear{content: ".";display: block;height: 0px;background: #000;clear: both;}	
